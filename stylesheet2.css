@@ -1,0 +1,175 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  color: white;
+  text-align: center;
+  padding: 180px 0 100px 0;
+  background-size: cover;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: white;
+  opacity: 0.8;
+  padding: 8px 24px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.signup {
+  background-color: teal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+} 
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+  color: brown;
+}
+
+.facebook {
+  background-color: rgb(144, 96, 206);
+  margin-right: 10px;
+
+}
+
+.twitter {
+  background-color: turquoise;
+}
+
+.header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-logo {
+  width: 124px;
+  padding: 20px 0;
+  float: left;
+  color: blanchedalmond;
+}
+
+.btn-login {
+  float: right;
+  color: white;
+  padding: 20px 25px;
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.btn-login:hover {
+  cursor: grabbing;
+  color: brown;
+  transition: all 0.5s;
+}
+
+.lessons-wrapper {
+  height: 580px;
+  text-align: center;
+  background-color: rgb(167, 229, 231);
+}
+.heading h2 {
+  font-weight: normal;
+  padding-top: 80px;
+}
+
+.lesson {
+  width: 25%;
+  float: left;
+  margin-top: 50px;
+}
+
+.lesson-icon p {
+  position: relative;
+  bottom: 120px;
+  color: white;
+
+}
+
+.lesson-text  {
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 15px;
+  width: 80%;
+  color: rgb(183, 0, 255);
+  
+}
+
+.mes-wrapper {
+  text-align: center;
+  background-color: thistle;
+}
+
+.mes-btn {
+  background-color: chocolate;
+  box-shadow: 0px 5px  blueviolet;
+  padding: 15px 40px;
+  margin: 50px 0 80px 0;
+  display: inline-block;
+  border-radius: 5px;
+  color: wheat;
+}
+
+.mes-btn:active {
+  box-shadow: none;
+  /* opacity: 0.3; */
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid black;
+  background-color: cornflowerblue;
+}
+
+.footer p {
+  font-size: 12px;
+  /* padding-bottom: 30px; */
+}
+
+.footer img {
+  width: 124px;
+}
